@@ -10,12 +10,12 @@
 User starts at the homepage: https://apps.marketingresources.com/
 User should be logged in and authenticated.
 
-<u>2. Navigate to Timesheet Page</u>
+<b>2. Navigate to Timesheet Page</b>
 
 User proceeds to the "Timesheet" page by clicking on a link, located on the left side of the screen.
 URL: https://apps.marketingresources.com/timesheet
 
-<u>3. Timesheet Form Entry</u>
+<b>3. Timesheet Form Entry</b>
 
 3.1 Select a Job
 
@@ -40,7 +40,7 @@ The user is required to select their department from a list of available options
 
 The user needs to input the number of hours and minutes worked for the specified job.
 
-<u>4. Submit Timesheet Entry</u>
+<b>4. Submit Timesheet Entry</b>
 
 4.1 Review Entries
 
