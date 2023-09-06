@@ -55,4 +55,37 @@ Recording Timesheet Entry in a Table
 <p>Upon successful submission of the timesheet entry, the user's provided information is systematically added to a table within the system. Each entry is recorded in its respective location within the table, ensuring accurate tracking and management of timesheet data.
 </p>
 
-## How it works.
+## Timesheet Entry Form (add_hours)
+
+The `add_hours` form allows users to submit their timesheet entries. Upon submission, the `add_hours.hours` and `add_hours.minutes` values are returned and used to populate a table located at the bottom of the screen. The process of filling in hours and minutes is handled by the `Validate2` function.
+
+<b>Form Inputs:</b>
+
+1. **Recent Job List**
+
+   - This section generates a list of the user's 20 most recent job entries, retrieved from an SQL Query. Below is an example of the SQL Query code:
+   ```sql
+   INSERT SQL QUERY CODE HERE
+   ```
+
+2. Active Job List
+
+Users can choose from a list of active jobs at MRI (Marketing Resources Inc.), which is also generated from an SQL Query. Here is an example of the SQL Query code:
+``` SQL
+INSERT SQL QUERY CODE HERE
+```
+3. Function
+
+This input allows users to select a specific function related to the job they have chosen.
+
+4. Comments (Optional)
+
+Users have the option to include additional notes or comments related to their timesheet entry.
+Role
+
+This field permits users to select their department or role within the organization.
+Hours Worked
+
+Users can input the number of hours worked for the selected job.
+Multiple Entries Per Day
+Users are allowed to submit more than one timesheet entry per day, enabling them to record their work for various jobs and functions as needed.
