@@ -1,5 +1,15 @@
-# MRI-Timesheet documentation
+# MRI-Timesheet documentation 09/06/2023
 <h2>The purpose of this document is to provide explanations, descriptions, and context for the code behind MRI's Timesheet function.</h2>
+
+## Table of Contents
+
+- [User flow(## User-flow)
+
+- [Timesheet Entry Form (add_hours)](##-Timesheet-Entry-Form-(add_hours))
+
+
+
+
 
 
 ## User flow
