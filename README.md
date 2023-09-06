@@ -5,7 +5,7 @@
 ## User flow
 <h2>This section describes how the user is intended to use the timesheet.</h2>
 
-<u>1. Initial Landing Page</u>
+<b>1. Initial Landing Page</b>
 
 User starts at the homepage: https://apps.marketingresources.com/
 User should be logged in and authenticated.
