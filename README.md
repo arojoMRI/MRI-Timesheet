@@ -63,16 +63,22 @@ The `add_hours` form allows users to submit their timesheet entries. Upon submis
 
 1. **Recent Job List**
 
-   - This section generates a list of the user's 20 most recent job entries, retrieved from an SQL Query. Below is an example of the SQL Query code:
+This section generates a list of the user's 20 most recent job entries, retrieved from an SQL Query. Below is an example of the SQL Query code:
    ```sql
-   INSERT SQL QUERY CODE HERE
+   SELECT DISTINCT job_id FROM job_log WHERE user_id = " . $_COOKIE['x'] . " AND job_id in (select id from job_info where active = 'Y' OR active='P') ORDER BY id desc limit 20"
    ```
 
 2. Active Job List
 
 Users can choose from a list of active jobs at MRI (Marketing Resources Inc.), which is also generated from an SQL Query. Here is an example of the SQL Query code:
 ``` SQL
-INSERT SQL QUERY CODE HERE
+"SELECT id,name,active from job_info where (active = 'Y' OR active='P') order by id, name");
+                                                while ($iRow = @mysql_fetch_object($pr_jobs)) {
+                                                    echo "<option value=\"$iRow->id\"";
+                                                    if ($iRow->active == "P") {
+                                                    echo ">" . $iRow->id . "  :: " . $iRow->name . "(PENDING)</option>"; }
+                                                    else {
+                                                        echo ">" . $iRow->id . "  :: " . $iRow->name . "</option>"; }
 ```
 3. Function
 
