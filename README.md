@@ -5,17 +5,17 @@
 ## User flow
 <h2>This section describes how the user is intended to use the timesheet.</h2>
 
-1. Initial Landing Page
+<u>1. Initial Landing Page</u>
 
 User starts at the homepage: https://apps.marketingresources.com/
 User should be logged in and authenticated.
 
-2. Navigate to Timesheet Page
+<u>2. Navigate to Timesheet Page</u>
 
 User proceeds to the "Timesheet" page by clicking on a link, located on the left side of the screen.
 URL: https://apps.marketingresources.com/timesheet
 
-3. Timesheet Form Entry
+<u>3. Timesheet Form Entry</u>
 
 3.1 Select a Job
 
@@ -40,7 +40,7 @@ The user is required to select their department from a list of available options
 
 The user needs to input the number of hours and minutes worked for the specified job.
 
-4. Submit Timesheet Entry
+<u>4. Submit Timesheet Entry</u>
 
 4.1 Review Entries
 
@@ -53,6 +53,6 @@ Once the user is satisfied with the entered information, they can submit the tim
 Recording Timesheet Entry in a Table
 
 <p>Upon successful submission of the timesheet entry, the user's provided information is systematically added to a table within the system. Each entry is recorded in its respective location within the table, ensuring accurate tracking and management of timesheet data.
-</p>---
+</p>
 
 ## How it works.
