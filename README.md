@@ -3,9 +3,9 @@
 
 ## Table of Contents
 
-- [User flow](##-User-flow)
+- [User flow](##User-flow)
 
-- [Timesheet Entry Form (add_hours)](##-Timesheet-Entry-Form-(add_hours))
+- [Timesheet Entry Form (add_hours)](##Timesheet-Entry-Form-(add_hours))
 
 
 
