@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [User flow(## User-flow)
+- [User flow](##-User-flow)
 
 - [Timesheet Entry Form (add_hours)](##-Timesheet-Entry-Form-(add_hours))
 
@@ -13,7 +13,7 @@
 
 
 ## User flow
-<h2>This section describes how the user is intended to use the timesheet.</h2>
+<p>This section describes how the user is intended to use the timesheet.</p>
 
 <b>1. Initial Landing Page</b>
 
