@@ -65,7 +65,8 @@ The `add_hours` form allows users to submit their timesheet entries. Upon submis
 
 This section generates a list of the user's 20 most recent job entries, retrieved from an SQL Query. Below is an example of the SQL Query code:
    ```sql
-   SELECT DISTINCT job_id FROM job_log WHERE user_id = " . $_COOKIE['x'] . " AND job_id in (select id from job_info where active = 'Y' OR active='P') ORDER BY id desc limit 20"
+   SELECT DISTINCT job_id FROM job_log WHERE user_id = " . $_COOKIE['x'] . " AND job_id in
+   (select id from job_info where active = 'Y' OR active='P') ORDER BY id desc limit 20"
    ```
 
 2. Active Job List
