@@ -79,13 +79,15 @@ This section generates a list of the user's 20 most recent job entries, retrieve
 
 Users can choose from a list of active jobs at MRI (Marketing Resources Inc.), which is also generated from an SQL Query. Here is an example of the SQL Query code:
 ``` SQL
-"SELECT id,name,active from job_info where (active = 'Y' OR active='P') order by id, name");
-                                                while ($iRow = @mysql_fetch_object($pr_jobs)) {
-                                                    echo "<option value=\"$iRow->id\"";
-                                                    if ($iRow->active == "P") {
-                                                    echo ">" . $iRow->id . "  :: " . $iRow->name . "(PENDING)</option>"; }
-                                                    else {
-                                                        echo ">" . $iRow->id . "  :: " . $iRow->name . "</option>"; }
+"SELECT id,name,active from job_info where 
+    (active = 'Y' OR active='P') order by id, name";
+                while ($iRow = @mysql_fetch_object($pr_jobs)) {
+                    echo "<option value=\"$iRow->id\"";
+                        if ($iRow->active == "P") {
+                            echo ">" . $iRow->id . "  :: " . $iRow->name . "(PENDING)</option>"; }
+                                else {
+                                    echo ">" . $iRow->id . "  :: " . $iRow->name . "</option>"; }
+                }
 ```
 3. Function
 
