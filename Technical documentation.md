@@ -15,7 +15,7 @@ User should be logged in and authenticated.
 User proceeds to the "Timesheet" page by clicking on a link, located on the left side of the screen.
 URL: https://apps.marketingresources.com/timesheet
 
-<img src="Landing.JPG" alt="Desktop landing page" />
+<img src="img/Landing.JPG" alt="Desktop landing page" />
 
 <b>3. Timesheet Form Entry</b>
 
@@ -54,12 +54,12 @@ Once the user is satisfied with the entered information, they can submit the tim
 
 Recording Timesheet Entry in a Table
 
-<img src="form.JPG" alt="Filled timesheet form" />
+<img src="img/form.JPG" alt="Filled timesheet form" />
 
 <p>Upon successful submission of the timesheet entry, the user's provided information is systematically added to a table within the system. Each entry is recorded in its respective location within the table, ensuring accurate tracking and management of timesheet data.
 </p>
 
-<img src="entry.JPG" alt="Filled timesheet form" />
+<img src="img/entry.JPG" alt="Filled timesheet form" />
 
 ## Timesheet Entry Form (add_hours)
 

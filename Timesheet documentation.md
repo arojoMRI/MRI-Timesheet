@@ -21,7 +21,7 @@ Once you are logged in, navigate to the Timesheet page by following these steps:
 1. Click on the "Timesheet" link located on the left side of the screen.
 2. Direct URL: [https://apps.marketingresources.com/timesheet](https://apps.marketingresources.com/timesheet)
 
-![Desktop landing page](Landing.JPG)
+![Desktop landing page](img/Landing.JPG)
 
 ### 2.3 Timesheet Form Entry
 
@@ -59,7 +59,7 @@ Before submitting, review all the information you entered in the timesheet form 
 
 Once you are satisfied with the entered information, click the "Add Entry" button to submit your timesheet entry.
 
-![Filled timesheet form](form.JPG)
+![Filled timesheet form](img/form.JPG)
 
 ## 3. Timesheet Entry Form
 
