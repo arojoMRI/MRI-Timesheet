@@ -1,10 +1,11 @@
 Vacation Tracker User Guide
+---
 This user guide provides instructions on how to use MRi's Vacation Tracker application. With the Vacation Tracker, you can plan and manage your vacation, sick days, and other time-off requests.
 
 Accessing Vacation Tracker
 To access the Vacation Tracker, follow these steps:
 
-Log In: Visit the login page of the Vacation Tracker application and enter your credentials to log in.
+<b>Log In:</b> <br/>Visit the login page of the Vacation Tracker application and enter your credentials to log in.
 
 Dashboard: After logging in, you will be directed to the dashboard, where you can view your vacation and time-off balances, as well as access various features of the Vacation Tracker.
 
@@ -15,6 +16,7 @@ Planning Your Time Off
 Viewing Your Balances
 --- 
 In the dashboard, you can view your available vacation days, sick days, and other time-off balances. These balances are displayed for the current year and, if available, the next year.
+<br/>
 ![Available vacation days](img/vacay-days.JPG)
 
 Requesting Time Off
@@ -40,7 +42,7 @@ You can record sick days using the Vacation Tracker:
 
 Sick Day Selection:
 
-Select the type of sick day (e.g., AM, PM, FULL) from the dropdown menu.
+Select the type of sick day (e.g., half or, FULL) from the dropdown menu.
 Submit:
 
 Click the "Submit" button to record your sick day.
