@@ -7,7 +7,7 @@ To access the Vacation Tracker, follow these steps:
 
 <b>Log In:</b> <br/>Visit the login page of the Vacation Tracker application and enter your credentials to log in.
 
-Dashboard: After logging in, you will be directed to the dashboard, where you can view your vacation and time-off balances, as well as access various features of the Vacation Tracker.
+<b>Dashboard:</b> <br/>After logging in, you will be directed to the dashboard, where you can view your vacation and time-off balances, as well as access various features of the Vacation Tracker.
 
 ![Vacation landing page](img/landing.JPG)
 
@@ -17,6 +17,7 @@ Viewing Your Balances
 --- 
 In the dashboard, you can view your available vacation days, sick days, and other time-off balances. These balances are displayed for the current year and, if available, the next year.
 <br/>
+
 ![Available vacation days](img/vacay-days.JPG)
 
 Requesting Time Off
